@@ -19,6 +19,5 @@ def introspection_info(obj):
         'id': id(obj),
         'size': sys.getsizeof(obj)
     }
-
 number_info = introspection_info(42)
 print(number_info)
